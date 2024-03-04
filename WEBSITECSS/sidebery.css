@@ -5,24 +5,24 @@ you can even delete your old style editor tweaks if you know what they all do*/
 
 /* In these walls, lies the perfect dream */
 
-#root.root {--toolbar-el-overlay-active-border: #ffff80ff;}
-#root.root {--frame-el-overlay-selected-border: #FBF268;}
-#root.root {--frame-el-overlay-clicked-bg: #151515ff;}
-#root.root {--tabs-normal-bg: #000000ff;}
-#root.root {--ctx-menu-fg: #ffffffff;}
-#root.root {--toolbar-fg: #ffffffff;}
-#root.root {--toolbar-bg: #000000ff;}
+#root.root {--toolbar-el-overlay-active-border: #F5BDE6;} /* pink */
+#root.root {--frame-el-overlay-selected-border: #F5BDE6;} /* pink */
+#root.root {--frame-el-overlay-clicked-bg: #181926;} /* Crust */
+#root.root {--tabs-normal-bg: #181926;} /* Crust */
+#root.root {--ctx-menu-fg: #CAD3F5;} /* Text */
+#root.root {--toolbar-fg: #CAD3F5;} /* text */
+#root.root {--toolbar-bg: #181926;} /* Crust */
 
-#root.root {--toolbar-el-overlay-selected-border: #ffff80ff;}
-#root.root {--toolbar-el-overlay-selected-bg: #000000;}
-#root.root {--toolbar-el-overlay-active-bg: #000000ff;}
-#root.root {--toolbar-el-overlay-clicked-bg: #000000ff;}
-#root.root {--toolbar-el-overlay-hover-bg: #000000ff;}
+#root.root {--toolbar-el-overlay-selected-border: #F5BDE6;} /* pink */
+#root.root {--toolbar-el-overlay-selected-bg: #181926;} /* crust */
+#root.root {--toolbar-el-overlay-active-bg: #181926;} /* crust */
+#root.root {--toolbar-el-overlay-clicked-bg: #181926;} /* crust */
+#root.root {--toolbar-el-overlay-hover-bg: #181926;} /* crust */
 
 
-#root.root {--frame-el-overlay-hover-bg: #2A4045;}
-#root.root {--frame-fg: #ffffffff;}
-#root.root {--frame-bg: #000000ff;} /*big one, background here*/
+#root.root {--frame-el-overlay-hover-bg: #4B5E86;} /* blue but darker */
+#root.root {--frame-fg: #CAD3F5;} /* text */
+#root.root {--frame-bg: #181926;} /*crust; big one, background here*/ 
 
 #root.root {--nav-btn-len-margin: 1px;}
 #root.root {--nav-hidden-panels-popup-margin: 2px;}
@@ -32,9 +32,9 @@ you can even delete your old style editor tweaks if you know what they all do*/
 #root.root {--nav-hidden-btn-border-radius: 0px;}
 #root.root {--nav-btn-border-radius: 0px;}
 #root.root {--nav-btn-margin: 0px;}
-#root.root {--nav-btn-accent: #000000ff;}
-#root.root {--nav-btn-fg: #ff80ffff;}
-#root.root {--nav-btn-active-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.8), 0 1px 3px 0 rgba(0,0,0,0.212);}
+#root.root {--nav-btn-accent: #181926;} /* crust */
+#root.root {--nav-btn-fg: #F5BDE6;} /* Pink */
+#root.root {--nav-btn-active-shadow: inset 0 0 0 0px #939AB7, 0 1px 3px 0 #939AB7;} /* overlay2, mantle */
 
 #root.root {--tabs-lvl-opacity: 0;}
 #root.root {--tabs-audio-btn-width: 22px;}
@@ -42,24 +42,24 @@ you can even delete your old style editor tweaks if you know what they all do*/
 #root.root {--tabs-indent: 18px;}
 #root.root {--tabs-height: 28px;}
 #root.root {--tabs-border-radius: 0px;}
-#root.root {--tabs-progress-bg: #ffff80ff;} /*means loading circle*/
-#root.root {--tabs-activated-fg: #91DFF0;}
-#root.root {--tabs-activated-bg: #000000ff;}
-#root.root {--tabs-normal-fg: #c8c8c8ff;}
+#root.root {--tabs-progress-bg: #F5BDE6;} /*means loading circle, pink */
+#root.root {--tabs-activated-fg: #8AADF4;} /* Blue */
+#root.root {--tabs-activated-bg: #181926;} /* crust */
+#root.root {--tabs-normal-fg: #CAD3F5;} /* text */
 
-#root.root {--popup-fg: #ffffffff;}
-#root.root {--popup-bg: #080808ff;}
+#root.root {--popup-fg: #CAD3F5;} /* text */
+#root.root {--popup-bg: #181926;} /* crust */
 #root.root {--ctx-menu-text-opt-height: 35px;}
 #root.root {--ctx-menu-opt-padding: 3px;}
 #root.root {--ctx-menu-padding: 3px;}
 
-#root.root {--ctx-menu-separator: #1e1e1eff;}
-#root.root {--ctx-menu-bg: #000000ff;}
+#root.root {--ctx-menu-separator: #24273A;} /* Base */
+#root.root {--ctx-menu-bg: #181926;}
 #root.root {--slt-border-radius: 2px;}
 #root.root {--slt-margin: 1px;}
 #root.root {--notification-border-radius: 3px;}
-#root.root {--notification-fg: #2A4045;}
-#root.root {--notification-bg: #191919ff;}
+#root.root {--notification-fg: #2A4045;} /* crust */
+#root.root {--notification-bg: #24273A;} /* base */
 #root.root {--btn-border-radius: 2px;}
 
 .Sidebar .tool-btn > svg {
@@ -71,7 +71,7 @@ you can even delete your old style editor tweaks if you know what they all do*/
 .NavigationBar .nav-item .audio {display: none;}
 .Tab .fav-icon {left: 7px;width: 18px;height: 18px;}
 .Tab .title {left: 10px;}
-.Tab .audio {left: 32px !important;fill: #FFFAA0;}
+.Tab .audio {left: 32px !important;fill: #F5BDE6;} /* pink */
 .Tab .t-box {--audio-btn-offset: calc(var(--tabs-audio-btn-width) - var(--tabs-inner-gap));}
 
 
